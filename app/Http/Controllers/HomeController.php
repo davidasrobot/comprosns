@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
+use App\Mail\ContactEmail;
 use App\Portfolio;
 use App\Product;
 use App\Slider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -44,7 +48,27 @@ class HomeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'email' => 'required',
+            'subject' => 'required',
+            'message' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                $validator->errors()
+            ], 401);
+        }
+
+        $contact = Contact::create($request->all());
+
+        Mail::to('dian.pribadi@samitranityasasakti.com')
+            ->cc('info@samitranityasasakti.com')
+            ->send(new ContactEmail($contact));
+        return response()->json([
+            'OK'
+        ]);
     }
 
     /**

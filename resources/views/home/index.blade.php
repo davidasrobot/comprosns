@@ -185,58 +185,6 @@
         </div>
         </section><!-- #services -->
 
-        <!--==========================
-        Call To Action Section
-        ============================-->
-        <section id="call-to-action" class="wow fadeIn">
-        <div class="container text-center">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn" href="#">Call To Action</a>
-        </div>
-        </section><!-- #call-to-action -->
-
-        <!--==========================
-        Skills Section
-        ============================-->
-        <section id="skills">
-        <div class="container">
-
-            <header class="section-header">
-            <h3>Our Skills</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-            </header>
-
-            <div class="skills-content">
-
-            <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                <span class="skill">HTML <i class="val">100%</i></span>
-                </div>
-            </div>
-
-            <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                <span class="skill">CSS <i class="val">90%</i></span>
-                </div>
-            </div>
-
-            <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
-                </div>
-            </div>
-
-            <div class="progress">
-                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
-                </div>
-            </div>
-
-            </div>
-
-        </div>
-        </section>
 
         <!--==========================
         Facts Section
@@ -340,128 +288,6 @@
                 </div>
             @endforeach
 
-            {{-- <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct2.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">ODP Aerial Closure</a></h4>
-                    <p>ODP</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct3.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">ODP Pole</a></h4>
-                    <p>ODP</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct4.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">Join Closure</a></h4>
-                    <p>ODP</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct5.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">OTB Terminal Box</a></h4>
-                    <p>Cabinet</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct6.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct6.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">Fiber Optic Core</a></h4>
-                    <p>Cable</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct7.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct7.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">Passive Splitter</a></h4>
-                    <p>Cable</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct8.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct8.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">Preconnectorized</a></h4>
-                    <p>Cable</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-                <div class="portfolio-wrap">
-                <figure>
-                    <img src="img/portfolio/pct9.jpg" class="img-fluid" alt="">
-                    <a href="img/portfolio/pct9.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </figure>
-
-                <div class="portfolio-info">
-                    <h4><a href="#">Optical Distribution Cabinet</a></h4>
-                    <p>Cabinet</p>
-                </div>
-                </div>
-            </div>
-
-            </div> --}}
-
         </div>
         </section><!-- #portfolio -->
 
@@ -489,79 +315,7 @@
         </div>
         </section><!-- #clients -->
 
-        <!--==========================
-        Clients Section
-        ============================-->
-        <section id="testimonials" class="section-bg wow fadeInUp">
-        <div class="container">
-
-            <header class="section-header">
-            <h3>Testimonials</h3>
-            </header>
-
-            <div class="owl-carousel testimonials-carousel">
-
-            <div class="testimonial-item">
-                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-            </div>
-
-            <div class="testimonial-item">
-                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-            </div>
-
-            <div class="testimonial-item">
-                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-            </div>
-
-            <div class="testimonial-item">
-                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-            </div>
-
-            <div class="testimonial-item">
-                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-            </div>
-
-            </div>
-
-        </div>
-        </section><!-- #testimonials -->
-
-        <!--==========================
+        {{-- <!--==========================
         Team Section
         ============================-->
         <section id="team">
@@ -648,7 +402,7 @@
             </div>
 
         </div>
-        </section><!-- #team -->
+        </section><!-- #team --> --}}
 
         <!--==========================
         Contact Section
@@ -692,7 +446,8 @@
             <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="/store-contacts" method="post" role="form" class="contactForm">
+                {{ csrf_field() }}
                 <div class="form-row">
                 <div class="form-group col-md-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
